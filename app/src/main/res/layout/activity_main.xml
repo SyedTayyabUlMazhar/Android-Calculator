@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    //Point
+
+    <Button
+        android:id="@+id/buttonPoint"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="88dp"
+        android:layout_height="70dp"
+        android:background="#434343"
+        android:fontFamily="@font/ubuntu_light"
+        android:onClick="ButtonClick"
+        android:text="."
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    //Zero
+
+    <Button
+        android:id="@+id/buttonZero"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="88dp"
+        android:layout_height="70dp"
+        android:background="#434343"
+        android:fontFamily="@font/ubuntu_light"
+        android:onClick="ButtonClick"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonPoint" />
+
+    //Equal
+
+    <Button
+        android:id="@+id/buttonEqual"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="88dp"
+        android:layout_height="70dp"
+        android:background="#434343"
+        android:fontFamily="@font/ubuntu_light"
+        android:text="="
+        android:onClick="ButtonClick"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonZero" />
+
+    //One
+
+    <Button
+        android:id="@+id/buttonOne"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="88dp"
+        android:layout_height="70dp"
+        android:background="#434343"
+        android:fontFamily="@font/ubuntu_light"
+        android:onClick="ButtonClick"
+        android:text="1"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/buttonPoint"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    //Two
+
+    <Button
+        android:id="@+id/buttonTwo"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="88dp"
+        android:layout_height="70dp"
+        android:background="#434343"
+        android:fontFamily="@font/ubuntu_light"
+        android:onClick="ButtonClick"
+        android:text="2"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/buttonZero"
+        app:layout_constraintStart_toEndOf="@+id/buttonOne" />
+
+    //Three
+
+    <Button
+        android:id="@+id/buttonThree"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="88dp"
+        android:layout_height="70dp"
+        android:background="#434343"
+        android:fontFamily="@font/ubuntu_light"
+        android:onClick="ButtonClick"
+        android:text="3"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/buttonEqual"
+        app:layout_constraintStart_toEndOf="@+id/buttonTwo" />
+
+    //Four
+
+    <Button
+        android:id="@+id/buttonFour"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="88dp"
+        android:layout_height="70dp"
+        android:background="#434343"
+        android:fontFamily="@font/ubuntu_light"
+        android:onClick="ButtonClick"
+        android:text="4"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/buttonOne"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    //Five
+
+    <Button
+        android:id="@+id/buttonFive"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="88dp"
+        android:layout_height="70dp"
+        android:background="#434343"
+        android:fontFamily="@font/ubuntu_light"
+        android:onClick="ButtonClick"
+        android:text="5"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/buttonTwo"
+        app:layout_constraintStart_toEndOf="@+id/buttonFour" />
+
+    //Six
+
+    <Button
+        android:id="@+id/buttonSix"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="88dp"
+        android:layout_height="70dp"
+        android:background="#434343"
+        android:fontFamily="@font/ubuntu_light"
+        android:onClick="ButtonClick"
+        android:text="6"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/buttonThree"
+        app:layout_constraintStart_toEndOf="@+id/buttonFive" />
+
+    //Seven
+
+    <Button
+        android:id="@+id/buttonSeven"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="88dp"
+        android:layout_height="70dp"
+        android:background="#434343"
+        android:fontFamily="@font/ubuntu_light"
+        android:onClick="ButtonClick"
+        android:text="7"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/buttonFour"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    //Eight
+
+    <Button
+        android:id="@+id/buttonEight"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="88dp"
+        android:layout_height="70dp"
+        android:background="#434343"
+        android:fontFamily="@font/ubuntu_light"
+        android:onClick="ButtonClick"
+        android:text="8"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/buttonFive"
+        app:layout_constraintStart_toEndOf="@+id/buttonSeven" />
+
+    //Nine
+
+    <Button
+        android:id="@+id/buttonNine"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="88dp"
+        android:layout_height="70dp"
+        android:background="#434343"
+        android:fontFamily="@font/ubuntu_light"
+        android:onClick="ButtonClick"
+        android:text="9"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/buttonSix"
+        app:layout_constraintStart_toEndOf="@+id/buttonEight" />
+
+    <Button
+        android:id="@+id/buttonDel"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="52dp"
+        android:layout_height="50dp"
+        android:background="#626365"
+        android:fontFamily="@font/ubuntu_light"
+        android:text="Del"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/buttonDivide"
+        app:layout_constraintStart_toEndOf="@+id/buttonNine" />
+
+    <Button
+        android:id="@+id/buttonDivide"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="52dp"
+        android:layout_height="46dp"
+        android:background="#626365"
+        android:fontFamily="@font/ubuntu_light"
+        android:onClick="ButtonClick"
+        android:text="÷"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/buttonMultiply"
+        app:layout_constraintStart_toEndOf="@+id/buttonSix" />
+
+    <Button
+        android:id="@+id/buttonMultiply"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="52dp"
+        android:layout_height="46dp"
+        android:background="#626365"
+        android:fontFamily="@font/ubuntu_light"
+        android:onClick="ButtonClick"
+        android:text="×"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/buttonAdd"
+        app:layout_constraintStart_toEndOf="@+id/buttonSix" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="52dp"
+        android:layout_height="46dp"
+        android:background="#626365"
+        android:fontFamily="@font/ubuntu_light"
+        android:onClick="ButtonClick"
+        android:text="+"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/buttonSubtract"
+        app:layout_constraintStart_toEndOf="@+id/buttonThree" />
+
+    <Button
+        android:id="@+id/buttonSubtract"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="52dp"
+        android:layout_height="46dp"
+        android:background="#626365"
+        android:fontFamily="@font/ubuntu_light"
+        android:onClick="ButtonClick"
+        android:text="-"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/buttonBracket"
+        app:layout_constraintStart_toEndOf="@+id/buttonThree" />
+
+    <Button
+        android:id="@+id/buttonBracket"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="52dp"
+        android:layout_height="46dp"
+        android:background="#626365"
+        android:fontFamily="@font/ubuntu_light"
+        android:text="( )"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonEqual" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/biryani_extralight"
+        android:gravity="right"
+        android:textIsSelectable="true"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonNine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="3-5*" />
+
+    <android.support.constraint.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="731dp"
+        app:constraint_referenced_ids="buttonAdd,buttonSubtract,buttonSeven,buttonDel,buttonFive,buttonNine,buttonMultiply,buttonPoint,buttonOne,buttonEqual,buttonSix,buttonZero,buttonThree,buttonDivide,buttonTwo,buttonEight,buttonBracket,buttonFour"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
