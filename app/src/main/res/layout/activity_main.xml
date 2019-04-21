@@ -199,6 +199,7 @@
         app:layout_constraintBottom_toTopOf="@id/buttonSix"
         app:layout_constraintStart_toEndOf="@+id/buttonEight" />
 
+    //del
     <Button
         android:id="@+id/buttonDel"
         style="@style/Widget.AppCompat.Button.Borderless"
@@ -213,6 +214,7 @@
         app:layout_constraintBottom_toTopOf="@id/buttonDivide"
         app:layout_constraintStart_toEndOf="@+id/buttonNine" />
 
+    divide
     <Button
         android:id="@+id/buttonDivide"
         style="@style/Widget.AppCompat.Button.Borderless"
@@ -228,6 +230,7 @@
         app:layout_constraintBottom_toTopOf="@id/buttonMultiply"
         app:layout_constraintStart_toEndOf="@+id/buttonSix" />
 
+    multiply
     <Button
         android:id="@+id/buttonMultiply"
         style="@style/Widget.AppCompat.Button.Borderless"
@@ -243,6 +246,7 @@
         app:layout_constraintBottom_toTopOf="@id/buttonAdd"
         app:layout_constraintStart_toEndOf="@+id/buttonSix" />
 
+    /add
     <Button
         android:id="@+id/buttonAdd"
         style="@style/Widget.AppCompat.Button.Borderless"
@@ -257,6 +261,7 @@
         app:layout_constraintBottom_toTopOf="@id/buttonSubtract"
         app:layout_constraintStart_toEndOf="@+id/buttonThree" />
 
+    //substract
     <Button
         android:id="@+id/buttonSubtract"
         style="@style/Widget.AppCompat.Button.Borderless"
@@ -271,6 +276,7 @@
         app:layout_constraintBottom_toTopOf="@id/buttonBracket"
         app:layout_constraintStart_toEndOf="@+id/buttonThree" />
 
+    //parentheses
     <Button
         android:id="@+id/buttonBracket"
         style="@style/Widget.AppCompat.Button.Borderless"
@@ -284,7 +290,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/buttonEqual" />
 
-
+    /te
     <TextView
         android:id="@+id/textView"
         android:layout_width="0dp"
@@ -309,5 +315,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <include
+        android:id="@+id/activity_main_orangeSlidingWindow"
+        layout="@layout/extra_arithemtic"
+        android:layout_width="25dp"
+        android:layout_height="280dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
